@@ -15,4 +15,4 @@ spec:
   stringDataFrom:
     secretsManagerSecretRef:
       secretId: idp/postgres
-      versionId: 1d00d8de-2bf3-43b2-92cc-f677434d74d3
+      versionId: 73def933-396d-4925-bdd4-1a91b57137e1
