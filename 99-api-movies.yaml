@@ -10,11 +10,9 @@ spec:
     namespace: api-imdb
     server: https://kubernetes.default.svc
   source:
-    path: /k8s
+    path: helm/
     repoURL: https://github.com/jppol-idp/api-imdb
-    targetRevision: HEAD
-    directory:
-      recurse: true
+    targetRevision: main
   sources: []
   project: default
   syncPolicy:
