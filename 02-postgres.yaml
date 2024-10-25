@@ -23,7 +23,7 @@ spec:
     - repoURL: https://github.com/Lynetk/eks-argo-config.git
       targetRevision: main
       ref: values
-  project: idp-project
+  project: backstage-project
   syncPolicy:
     automated:
       prune: false
